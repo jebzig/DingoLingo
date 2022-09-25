@@ -36,7 +36,7 @@ if __name__ == '__main__':
 @bot.event
 async def on_ready():
     print(config.STARTUP_MESSAGE)
-    await bot.change_presence(status=discord.Status.online, activity=discord.Game(name="Music, type {}help".format(config.BOT_PREFIX)))
+    await bot.change_presence(status=discord.Status.online, activity=discord.Game(name="glow in the dark".format(config.BOT_PREFIX)))
 
     for guild in bot.guilds:
         await register(guild)
@@ -58,7 +58,7 @@ async def register(guild):
 
     sett = guild_to_settings[guild]
 
-    await guild.me.edit(nick=sett.get('default_nickname'))
+    #await guild.me.edit(nick=sett.get('default_nickname'))
 
     if config.GLOBAL_DISABLE_AUTOJOIN_VC == True:
         return

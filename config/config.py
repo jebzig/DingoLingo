@@ -1,20 +1,20 @@
-BOT_TOKEN: str = ""
+BOT_TOKEN: str = "NjgzMTA3OTU4ODc5NDIwNDU2.XmgEpA.NWB3FMjLOYkN3IzxjxWAcnDlr0w"
 SPOTIFY_ID: str = ""
 SPOTIFY_SECRET: str = ""
 
-BOT_PREFIX = "$"
+BOT_PREFIX = "-"
 
 EMBED_COLOR = 0x4dd4d0  #replace after'0x' with desired hex code ex. '#ff0188' >> '0xff0188'
 
 SUPPORTED_EXTENSIONS = ('.webm', '.mp4', '.mp3', '.avi', '.wav', '.m4v', '.ogg', '.mov')
 
-MAX_SONG_PRELOAD = 5  #maximum of 25
+MAX_SONG_PRELOAD = 25  #maximum of 25
 
 COOKIE_PATH = "/config/cookies/cookies.txt"
 
 GLOBAL_DISABLE_AUTOJOIN_VC = False
 
-VC_TIMEOUT = 600 #seconds
+VC_TIMEOUT = 180 #seconds
 VC_TIMOUT_DEFAULT = True  #default template setting for VC timeout true= yes, timeout false= no timeout
 ALLOW_VC_TIMEOUT_EDIT = True  #allow or disallow editing the vc_timeout guild setting
 
